@@ -1,0 +1,18 @@
+{
+  "name": "sendpost-express-example",
+  "version": "1.0.0",
+  "description": "SendPost Express.js example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "sendpost-js-sdk": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
